@@ -32,5 +32,11 @@ object Scala_ArrayLists extends  App {
   val intAndStringList = List(1,2,3,4,"Hi","Vidit")
   intAndStringList.foreach(print)
 
+  println("List comparison")
+  val list1 = List(1,2,3)
+  val list3 = List(1,2,3)
+
+  println(list1 == list3)
+
 }
 

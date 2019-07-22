@@ -16,6 +16,6 @@ class A {
   def show(id : Int ,name : String) : Any =
     {
       val tuple = (id,name)
-      return (tuple._1,tuple._2)
+      (tuple._1,tuple._2) // no need to write return explicitly
     }
 }
