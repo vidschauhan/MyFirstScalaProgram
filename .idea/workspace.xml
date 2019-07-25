@@ -2,9 +2,94 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73c15c1a-2e19-470e-ac56-f35ba235ab1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/example/basics/FunctionLiterals.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/MyFirstScalaProgram-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/MyFirstScalaProgram.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/example/basics/Closure.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/example/basics/PartiallyAppliedFunctions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/example/basics/SpecialFunctions.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/ScalaExamples.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/myfirstscalaprogram-build.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/example/basics/Expression.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/example/basics/Expression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3ef9cc3387bb53f215d0$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3ef9cc3387bb53f215d0.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3ef9cc3387bb53f215d0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$62eb7bb5f9693fa872e3$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$62eb7bb5f9693fa872e3.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$62eb7bb5f9693fa872e3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$72dc1bfc38e4918ec249$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$72dc1bfc38e4918ec249.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$72dc1bfc38e4918ec249.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/myfirstscalaprogram-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/myfirstscalaprogram-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/myfirstscalaprogram-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/myfirstscalaprogram-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/example/basics/FunctionLiterals.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/example/basics/FunctionLiterals.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/example/basics/Scala_ArrayLists.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/example/basics/Scala_ArrayLists.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/example/basics/Scala_ArrayLists$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/example/basics/Scala_ArrayLists$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/example/basics/Scala_ArrayLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/example/basics/Scala_ArrayLists.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/myfirstscalaprogram$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/myfirstscalaprogram$sources/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/myfirstscalaprogram$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/myfirstscalaprogram$sources/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/myfirstscalaprogram_2.13/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/myfirstscalaprogram_2.13/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/myfirstscalaprogram_2.13/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/myfirstscalaprogram_2.13/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.13/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.13/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.13/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,69 +108,58 @@
       </map>
     </option>
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-446004690">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="12" />
-          <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.25" value="2" />
-          <entry key="project.open.time.26" value="4" />
-          <entry key="project.open.time.27" value="2" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="13" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="1" />
-          <entry key="scala" value="25" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="1" />
-          <entry key="Scala" value="25" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="61" />
-          <entry key="scala" value="4732" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="61" />
-          <entry key="Scala" value="4732" />
-        </counts>
-      </usages-collector>
-    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/basics/MatchExpression.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="-165">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/basics/FunctionLiterals.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="33" column="10" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/basics/PartiallyAppliedFunctions.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/basics/Closure.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="79" selection-start-line="11" selection-start-column="79" selection-end-line="11" selection-end-column="79" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/basics/FunctionLiterals.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/basics/SpecialFunctions.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+            <state relative-caret-position="304">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -93,8 +167,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/basics/Tuples.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="228">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/basics/Arrays.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/basics/ScalaSetAndMaps.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="34" column="78" lean-forward="true" selection-start-line="34" selection-start-column="78" selection-end-line="34" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/basics/Scala_ArrayLists.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -112,20 +213,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="/5vsProject/5VS-Backend" value="PREVIEW" />
-        <entry key="/5vsProject/5vsDataProcessor" value="PREVIEW" />
-        <entry key="/KiwiProjects/Somatus-Backend" value="PREVIEW" />
-        <entry key="/KiwiProjects/Somatus-CMS" value="PREVIEW" />
-        <entry key="/KiwiProjects/Somatus_Feature_Branch_Code" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../VideoChat" value="PREVIEW" />
-        <entry key="$PROJECT_DIR$/../ZullTest" value="PREVIEW" />
-        <entry key="$USER_HOME$/MyCircleProjects/MyCircles-MyCircles-Backend" value="PREVIEW" />
-      </map>
-    </option>
   </component>
   <component name="HibernateTools">
     <HIBERNATE_HOME value="" />
@@ -188,12 +275,15 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/example/basics/HelloWorlsExtendsApp.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/example/basics/ScalaSetAndMaps.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/example/basics/Tuples.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/example/basics/Scala_ArrayLists.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/example/basics/Constructors.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/example/basics/Yield.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/example/basics/TryCatch.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/example/basics/MatchExpression.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/example/basics/Scala_ArrayLists.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/example/basics/FunctionLiterals.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/example/basics/PartiallyAppliedFunctions.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/example/basics/Closure.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/example/basics/SpecialFunctions.scala" />
       </list>
     </option>
   </component>
@@ -251,7 +341,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563976872351" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="sbt.project.settings.configurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -265,10 +360,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FunctionLiterals">
+  <component name="RunManager" selected="Application.SpecialFunctions">
+    <configuration name="Closure" type="Application" factoryName="Application" temporary="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="/opt/jdk-8u211-linux-x64/jdk1.8.0_211/jre" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.example.basics.Closure" />
+      <module name="MyFirstScalaProgram" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FunctionLiterals" type="Application" factoryName="Application" temporary="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="MAIN_CLASS_NAME" value="com.example.basics.FunctionLiterals" />
-      <module name="ScalaExamples" />
+      <module name="MyFirstScalaProgram" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.basics.*" />
@@ -279,9 +390,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatchExpression" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.basics.MatchExpression" />
-      <module name="ScalaExamples" />
+    <configuration name="PartiallyAppliedFunctions" type="Application" factoryName="Application" temporary="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="/opt/jdk-8u211-linux-x64/jdk1.8.0_211/jre" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.example.basics.PartiallyAppliedFunctions" />
+      <module name="MyFirstScalaProgram" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.basics.*" />
@@ -292,9 +405,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TryCatch" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.basics.TryCatch" />
-      <module name="ScalaExamples" />
+    <configuration name="Scala_ArrayLists" type="Application" factoryName="Application" temporary="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="/opt/jdk-8u211-linux-x64/jdk1.8.0_211/jre" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.example.basics.Scala_ArrayLists" />
+      <module name="MyFirstScalaProgram" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.basics.*" />
@@ -305,9 +420,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tuples" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.basics.Tuples" />
-      <module name="ScalaExamples" />
+    <configuration name="SpecialFunctions" type="Application" factoryName="Application" temporary="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="/opt/jdk-8u211-linux-x64/jdk1.8.0_211/jre" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.example.basics.SpecialFunctions" />
+      <module name="MyFirstScalaProgram" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.basics.*" />
@@ -318,33 +435,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Yield" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.basics.Yield" />
-      <module name="ScalaExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.basics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="/opt/jdk-8u211-linux-x64/jdk1.8.0_211/jre" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Yield" />
-      <item itemvalue="Application.TryCatch" />
-      <item itemvalue="Application.MatchExpression" />
       <item itemvalue="Application.FunctionLiterals" />
-      <item itemvalue="Application.Tuples" />
+      <item itemvalue="Application.Scala_ArrayLists" />
+      <item itemvalue="Application.PartiallyAppliedFunctions" />
+      <item itemvalue="Application.Closure" />
+      <item itemvalue="Application.SpecialFunctions" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpecialFunctions" />
+        <item itemvalue="Application.Closure" />
+        <item itemvalue="Application.PartiallyAppliedFunctions" />
         <item itemvalue="Application.FunctionLiterals" />
-        <item itemvalue="Application.Tuples" />
-        <item itemvalue="Application.MatchExpression" />
-        <item itemvalue="Application.TryCatch" />
-        <item itemvalue="Application.Yield" />
+        <item itemvalue="Application.Scala_ArrayLists" />
       </list>
     </recent_temporary>
   </component>
@@ -361,11 +472,11 @@
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="myfirstscalaprogram [file:/home/kiwitech/Downloads/MyFirstScalaProgram/]" />
+                <option name="name" value="myfirstscalaprogram [file:/home/developer/IdeaProjects/MyFirstScalaProgram/]" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value="myfirstscalaprogram-build [file:/home/kiwitech/Downloads/MyFirstScalaProgram/]" />
+                <option name="name" value="MyFirstScalaProgram-build" />
                 <option name="path" value="$PROJECT_DIR$/project" />
               </ExternalProjectPojo>
             </list>
@@ -375,9 +486,8 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="3122751082000" />
-        <entry key="$PROJECT_DIR$/build.sbt" value="3565157648" />
-        <entry key="$PROJECT_DIR$/project/build.properties" value="2567920773" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="3815438915" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="1396028727" />
       </map>
     </option>
   </component>
@@ -407,7 +517,7 @@
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30559757" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15151516" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -420,21 +530,22 @@
       <window_info id="Learn" order="10" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3218391" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26490065" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39901477" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32840723" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32840723" />
       <window_info anchor="bottom" id="DB Execution Console" order="8" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="9" weight="0.32840723" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="9" weight="0.32781458" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.27093595" />
       <window_info anchor="bottom" id="CheckStyle" order="11" weight="0.32840723" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="13" visible="true" weight="0.32840723" />
+      <window_info anchor="bottom" id="Build" order="13" weight="0.32840723" />
       <window_info anchor="bottom" id="Console" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="16" weight="0.32840723" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.32781458" />
+      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -489,9 +600,6 @@
       <window_info anchor="right" id="Codota" order="10" weight="0.32980332" />
     </layout-to-restore>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -520,13 +628,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/basics/SaclaClass.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/basics/ScalaSetAndMaps.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="34" column="78" lean-forward="true" selection-start-line="34" selection-start-column="78" selection-end-line="34" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/basics/ScalaClass.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-65">
@@ -549,24 +650,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/basics/Scala_ArrayLists.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/basics/HelloWorlsExtendsApp.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/basics/Arrays.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -577,13 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/basics/MatchExpression.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/basics/TryCatch.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -591,26 +671,143 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/basics/Scala_ArrayLists.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/basics/ScalaSetAndMaps.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="34" column="78" lean-forward="true" selection-start-line="34" selection-start-column="78" selection-end-line="34" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/basics/Tuples.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="228">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/basics/Arrays.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/basics/FunctionLiterals.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        <state relative-caret-position="366">
+          <caret line="33" column="10" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/basics/MatchExpression.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-165">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/basics/PartiallyAppliedFunctions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/basics/Closure.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="79" selection-start-line="11" selection-start-column="79" selection-end-line="11" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/example/basics/SpecialFunctions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

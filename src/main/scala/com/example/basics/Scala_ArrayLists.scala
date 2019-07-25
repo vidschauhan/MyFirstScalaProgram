@@ -38,5 +38,8 @@ object Scala_ArrayLists extends  App {
 
   println(list1 == list3)
 
+  val l = List(1,2,3,4,5,6,7,8,9,10)
+  l.foreach(print _) /** here "_" used as placeholder to print elements*/
+
 }
 

@@ -29,4 +29,7 @@ object FunctionLiterals extends App {
   val response = tup(100,400)
   println(response._1,response._2)
 
+
+  val lit = (_ : Int) +( _ : Int)
+  println(lit(10,20))
 }

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ScalaExamples.iml" filepath="$PROJECT_DIR$/.idea/modules/ScalaExamples.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/myfirstscalaprogram-build.iml" filepath="$PROJECT_DIR$/.idea/modules/myfirstscalaprogram-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyFirstScalaProgram.iml" filepath="$PROJECT_DIR$/.idea/modules/MyFirstScalaProgram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyFirstScalaProgram-build.iml" filepath="$PROJECT_DIR$/.idea/modules/MyFirstScalaProgram-build.iml" />
     </modules>
   </component>
 </project>
