@@ -11,7 +11,7 @@ object FunctionLiterals extends App {
 
   /** You can also modify the values anynomously using Function literals*/
 
-  var increase = (x: Int) => x + 1 /** It is mandatory to use paranthesis in this condition as well as datatypes*/
+  var increase = (x: Int) => x + 1 /** It is mandatory to use parenthesis in this condition as well as datatypes*/
 
   println(increase(10)) /** You may call Function values as function call() */
 

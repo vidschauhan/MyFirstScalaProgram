@@ -14,8 +14,9 @@ object Constructors extends App {
 
 class Example (arg1 : String , arg2 : String,arg3 : String){
 
-  override def toString = arg1 + "," + arg2 + "," + arg3
+  override def toString: String = arg1 + "," + arg2 + "," + arg3
 
+  //Auxiliary constructor
   def this(args3 : String) = this("","",args3)
 
   def show(arg4 : String) : String  ={
