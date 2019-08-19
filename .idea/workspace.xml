@@ -1,69 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73c15c1a-2e19-470e-ac56-f35ba235ab1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/example/basics/DefaultAndNamedParameters.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/example/recursion/ConcatenateRecursion.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/example/recursion/FactorialByRecursion.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/example/recursion/TrailingRecursion.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/example/stringOperations/StringOps.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/oop/Apply.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/oop/MethodNotation.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/oop/Oops.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/oop/Static.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/MyFirstScalaProgram-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/MyFirstScalaProgram-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+    <list default="true" id="73c15c1a-2e19-470e-ac56-f35ba235ab1d" name="Default Changelist" comment="Recursion &amp; oop concepts">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/collections/Lists.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/collections/MapAndConversions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/collections/Optional.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/collections/OptionsExercise$.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/collections/Sequences.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/collections/TuplesAndMaps.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/exceptions/CustomException.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/exceptions/ScalaExceptions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/functionalProgrraming/AnonymousFunctions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/functionalProgrraming/CurriedFunction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/functionalProgrraming/HigherOrderFunctions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/functionalProgrraming/MapFlatMapFilter.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/functionalProgrraming/WhatsAFunction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/oop/AnynomousClasses.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/oop/CaseClasses.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/oop/Generics.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/oop/Inheritance.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/oop/Overriding$.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/oop/PackageObjectExample.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/oop/package.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/patternMatching/Patterns.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/myfirstscalaprogram-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/myfirstscalaprogram-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/myfirstscalaprogram-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/myfirstscalaprogram-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-myfirstscalaprogram-build-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/example/basics/Constructors.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/example/basics/Constructors.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/example/basics/FunctionLiterals.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/example/basics/FunctionLiterals.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/example/basics/Example.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/example/basics/Example.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/myfirstscalaprogram$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/myfirstscalaprogram$sources/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/myfirstscalaprogram$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/myfirstscalaprogram$sources/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/myfirstscalaprogram_2.13/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/myfirstscalaprogram_2.13/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/myfirstscalaprogram_2.13/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/default/myfirstscalaprogram_2.13/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram$sources-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/resolution-cache/reports/default-myfirstscalaprogram_2.13-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.13/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +126,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -180,15 +140,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Static">
-    <configuration name="Apply" type="Application" factoryName="Application" temporary="true">
+  <component name="RunManager" selected="Application.OptionsExercise$">
+    <configuration name="Lists" type="Application" factoryName="Application" temporary="true">
       <option name="ALTERNATIVE_JRE_PATH" value="/opt/jdk-8u211-linux-x64/jdk1.8.0_211/jre" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.oop.Apply" />
+      <option name="MAIN_CLASS_NAME" value="com.collections.Lists" />
       <module name="MyFirstScalaProgram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.oop.*" />
+          <option name="PATTERN" value="com.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,14 +156,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DefaultAndNamedParameters" type="Application" factoryName="Application" temporary="true">
+    <configuration name="MapAndConversions" type="Application" factoryName="Application" temporary="true">
       <option name="ALTERNATIVE_JRE_PATH" value="/opt/jdk-8u211-linux-x64/jdk1.8.0_211/jre" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.example.basics.DefaultAndNamedParameters" />
+      <option name="MAIN_CLASS_NAME" value="com.collections.MapAndConversions" />
       <module name="MyFirstScalaProgram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.basics.*" />
+          <option name="PATTERN" value="com.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -211,14 +171,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodNotation" type="Application" factoryName="Application" temporary="true">
+    <configuration name="Optional" type="Application" factoryName="Application" temporary="true">
       <option name="ALTERNATIVE_JRE_PATH" value="/opt/jdk-8u211-linux-x64/jdk1.8.0_211/jre" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.oop.MethodNotation" />
+      <option name="MAIN_CLASS_NAME" value="com.collections.Optional" />
       <module name="MyFirstScalaProgram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.oop.*" />
+          <option name="PATTERN" value="com.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -226,14 +186,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Oops" type="Application" factoryName="Application" temporary="true">
+    <configuration name="OptionsExercise$" type="Application" factoryName="Application" temporary="true">
       <option name="ALTERNATIVE_JRE_PATH" value="/opt/jdk-8u211-linux-x64/jdk1.8.0_211/jre" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.oop.Oops" />
+      <option name="MAIN_CLASS_NAME" value="com.collections.OptionsExercise$" />
       <module name="MyFirstScalaProgram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.oop.*" />
+          <option name="PATTERN" value="com.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -241,14 +201,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Static" type="Application" factoryName="Application" temporary="true">
+    <configuration name="TuplesAndMaps" type="Application" factoryName="Application" temporary="true">
       <option name="ALTERNATIVE_JRE_PATH" value="/opt/jdk-8u211-linux-x64/jdk1.8.0_211/jre" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.oop.Static" />
+      <option name="MAIN_CLASS_NAME" value="com.collections.TuplesAndMaps" />
       <module name="MyFirstScalaProgram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.oop.*" />
+          <option name="PATTERN" value="com.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,19 +224,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DefaultAndNamedParameters" />
-      <item itemvalue="Application.Oops" />
-      <item itemvalue="Application.MethodNotation" />
-      <item itemvalue="Application.Apply" />
-      <item itemvalue="Application.Static" />
+      <item itemvalue="Application.Lists" />
+      <item itemvalue="Application.TuplesAndMaps" />
+      <item itemvalue="Application.MapAndConversions" />
+      <item itemvalue="Application.Optional" />
+      <item itemvalue="Application.OptionsExercise$" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Static" />
-        <item itemvalue="Application.Apply" />
-        <item itemvalue="Application.MethodNotation" />
-        <item itemvalue="Application.Oops" />
-        <item itemvalue="Application.DefaultAndNamedParameters" />
+        <item itemvalue="Application.OptionsExercise$" />
+        <item itemvalue="Application.Optional" />
+        <item itemvalue="Application.MapAndConversions" />
+        <item itemvalue="Application.TuplesAndMaps" />
+        <item itemvalue="Application.Lists" />
       </list>
     </recent_temporary>
   </component>
@@ -331,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564027925001</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Recursion &amp; oop concepts">
+      <created>1565546820977</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565546820977</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -358,6 +325,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Closure,Special and Partially Applied Functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Closure,Special and Partially Applied Functions" />
+    <MESSAGE value="Recursion &amp; oop concepts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Recursion &amp; oop concepts" />
   </component>
 </project>
