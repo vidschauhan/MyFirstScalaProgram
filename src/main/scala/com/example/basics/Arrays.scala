@@ -34,7 +34,10 @@ object Arrays extends App {
   for(arr <- 1 until 3)
     println(numNames(arr))
 
+  numNames.map(x => println(x.length))
 
+  val fruits = Seq("apple", "banana", "orange")
+  println(fruits.flatMap(_.toUpperCase))
 
 
 }

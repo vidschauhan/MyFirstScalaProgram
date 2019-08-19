@@ -30,7 +30,7 @@ object MethodNotation extends App {
   println(person + "Merry")
 
   /*
-  Infix notation.
+  Prefix notation.
   only works with UNARY operators - + ~ !
    */
   println(!person)
