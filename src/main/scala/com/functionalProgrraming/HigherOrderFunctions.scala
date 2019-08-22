@@ -12,9 +12,9 @@ object HigherOrderFunctions extends App {
    * nTimes(f,3,x) = f(f(f(x))) */
 
   @tailrec
-  def nTimes(f : Int => Int, n : Int, x : Int) : Int = {
+  def nTimes(plusOne : Int => Int, n : Int, x : Int) : Int = {
     if(n <=0) x
-    else nTimes(f,n-1,f(x))
+    else nTimes(plusOne,n-1,plusOne(x))
   }
 
   val plusOne = (x : Int) => x + 1

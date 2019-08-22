@@ -16,8 +16,9 @@ object OptionsExercise$ extends App {
   object Connection{
     val random = new Random(System.nanoTime())
     def apply(host:String,port:String): Option[Connection] = {
-      println("random boolean : " +random.nextBoolean())
-      if(random.nextBoolean()) Some(new Connection) else None
+      val booleanValue = random.nextBoolean()
+      println("random boolean : " + booleanValue)
+      if(booleanValue) Some(new Connection) else None
     }
   }
 
